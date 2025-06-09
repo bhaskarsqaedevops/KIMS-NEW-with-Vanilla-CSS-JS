@@ -1,0 +1,302 @@
+/* Global Reset */
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+ol, ul {
+    list-style: none;
+}
+
+/* MAIN */
+
+.top-blue-container {
+  display: flex;
+  background-color: #1e74ad;
+  padding: 11px; 
+  
+}
+
+.top-blue-bar {
+  display: flex;
+  color: #ffffff;
+  font-weight: 400;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.top-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 1.9rem; */
+  width: 100%;
+  font-size: 14px;
+  box-shadow: 0 2px 0 0 #f5f5f5;
+  padding: 8px 12px;
+  
+}
+
+.location {
+  display: flex;
+  color: #4A4A4A;
+  padding: 8px 12px;
+}
+
+.secunderabad {
+  display: flex;
+  color: #007CB0;
+}
+
+.emergency-right-nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #4A4A4A;
+}
+
+.right-nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+
+
+.main-header-bar {
+  display: flex;
+  justify-content: space-between;
+  min-height: 3.25rem;
+  width: 100%;
+}
+
+.kims-logo {
+  display: flex;
+  max-height: 3rem;
+  max-width: 33vw;
+  justify-content: space-between;
+  padding: 16px 12px;
+}
+
+.right-side-main-header {
+  display: flex;
+  gap: 1rem;
+}
+.phonebook-logo {
+  display: flex;
+  align-items: center;
+  
+  color: #e31a47 !important;
+  font-weight: bold;
+}
+
+.request-callback {
+  display: flex;
+  color: #007CB0;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.changing-right-side-padding {
+  display: flex;
+  padding: 8px 12px;
+  align-items: center;
+}
+
+.request-callback-button {
+  display: flex;
+  background-color: #ffffff;
+  color: #363636;
+  border-width: 1px;
+  padding: 0.75rem;
+  font-size: 16px;
+  border: 1px solid #d7d7d7;
+  }
+
+  .main-nav-container {
+    display: flex;
+    border-top: 0.1rem solid #0074ad;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    color: #4A4A4A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    min-height: 52px;
+    max-width: 1344px;
+    padding: 8px 12px;
+  }
+
+  .book-an-appointment {
+    display: flex;
+    background-color: #e31a47 !important;
+    font-weight: 600;
+    padding: 8px 12px;  
+  }
+
+  .main-departments-with-main-slide-images {
+    display: flex;
+    max-width: 1344px;
+
+  }
+
+  .sliding-images {
+    display: flex;
+    height: 482px;
+    width: 1500px;
+  }
+
+  .top-departments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #4A4A4A;
+    background-color: #AED8F2;
+    height: 56px;
+    width: 100%;
+  }
+
+  .top-departments-sections {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cardiac-sciences {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    text-decoration-color: #363636;
+    
+  }
+
+  .dental-science {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    text-decoration-color: #363636;
+  }
+
+  .gastroenterology-and-hepatology {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    text-decoration-color: #363636;
+  }
+
+  .heart-and-lung-transplantation {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    text-decoration-color: #363636;
+  }
+
+  .neuro-sciences {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    text-decoration-color: #363636;
+  }
+
+  .orthopedic-sciences {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    text-decoration-color: #363636;
+  }
+
+  .paediatrics {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    text-decoration-color: #363636;
+  }
+
+  .renal-sciences {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    text-decoration-color: #363636;
+  }
+
+  .reproductive-sciences {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    text-decoration-color: #363636;
+  }
+
+  .robotic-sciences {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    text-decoration-color: #363636;
+  }
+
+
+  .kims-hospital-welcome-section {
+    display: flex;
+    max-width: 1344px;
+    margin-left: 280px;
+    margin-right: 280px;
+    padding: 48px 24px;
+
+  }
+  
+  .kims-building-image {
+    display: flex;
+    width: 331px ;
+    line-height: 24px;
+    padding: 12px 32px;
+  }
+
+  .kims-hospital-details {
+    /* display: flex; */
+    font-size: 16px;
+    font-weight: 400;
+
+  }
+
+  .welcome-to-kims-hospitals {
+    font-size: 16px;
+    color: #4A4A4A;
+    margin: 12px 0px 0px;
+    padding: 0px 8px;
+
+  }
